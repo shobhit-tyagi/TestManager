@@ -1,0 +1,566 @@
+@CHARSET "ISO-8859-1";
+
+.ng-cloak {
+  display: none !important;
+}
+fieldset {
+	border: 1px solid #575757;
+	background-color: #f5f5f5;
+}
+legend {
+	background-color: #FFF;
+	border: 1px solid #575757;
+}
+.underlinedLink {
+	text-decoration: underline;
+}
+.baseBody {
+	background: url(../images/background.png) center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 745px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	box-shadow: 3px 3px 3px #888, -3px 3px 3px #888, 3px -3px 3px #888, -3px -3px 3px #888;
+}
+.logoBox {
+	background: url(../images/logo.png);
+	background-size: 996px 27px;
+    background-repeat: no-repeat;
+	height: 27px;
+   	width: 996px;
+   	margin-left: 2px;
+   	box-shadow: 0px 3px 3px #888;
+}
+.logoBoxSp {	
+	background: url(../images/logoSp.png);
+	background-size: 996px 27px;
+    background-repeat: no-repeat;
+	height: 27px;
+   	width: 996px;
+   	margin-left: 2px;
+   	box-shadow: 0px 3px 3px #888;
+}
+.logo {
+	height: 27px;
+	width: 782px;
+    float: left;
+}
+
+.userInfo {
+	float: left;
+	height: 27px;
+	width: 213px;
+	border: 1px solid;
+}
+.contentBox {
+	background-size: 996px 700px;
+	height: 695px;
+	width: 996px;
+	margin: 2px;
+}
+.content {
+	margin: 5px;
+}
+.errorBox {
+	background: url(../images/error.png);
+	height: 400px;
+	width: 700px;
+	background-size: 700px 400px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.errorContent {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+.errorTable {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.errorButtonHome {
+	margin-top: 241px;
+	margin-left: 189px;
+}
+.errorButtonContact {
+	margin-top: 241px;
+}
+.paddingl-5px {
+	padding: 5px;
+}
+.paddingr-5px {
+	padding: 5px;
+}
+.paddingt-5px {
+	padding: 5px;
+}
+.paddingb-5px {
+	padding: 5px;
+}
+.padding-5px {
+	padding: 5px;
+}
+.loginBox {
+	background: url(../images/loginbox.jpg);
+	height: 300px;
+	width: 400px;
+	background-size: 400px 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	box-shadow: 7px 7px 7px #888;
+}
+.loginFields {
+	height: 31px;
+	width: 246px;
+}
+.loginSubmit {
+	font-weight: bold;
+}
+.loginButtons {
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+.loginUserNameBox {
+	margin-top: 93px;
+}
+.loginPasswordBox {
+	margin-top: 22px;
+}
+.userInfoNameSpan {
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 6px;
+}
+.userInfoProfilePic {
+	height: 27px;
+	width: 25px;
+	margin-left: 2px;
+}
+.underline {
+	text-decoration: underline;
+}
+.header {
+	font-size: 10px;
+}
+.summaryBox {
+	height: 342px;
+	width: 100%;
+}
+.dbSummaryBox {
+	margin-top: 5px;
+}
+.userInfoLinkImg {
+	height: 20px;
+	width: 20px;
+}
+.userInfoLink {
+	float: right;
+}
+.userInfoDropdown {
+	width: 260px;
+	font-size: 10px;
+}
+
+.errorPanelDropdown {
+	width: 996px;
+	font-size: 10px;
+	background-color: red;
+}
+.userInfoTable {
+	vertical-align: top;
+	margin: 5px;
+}
+.userInfoContent {
+	margin-left: 20px;
+	text-align: left;
+}
+.projectSideMenu {
+	height: 125px;
+	width: 20px;
+	float: left;
+	opacity: 0.5;
+	filter: alpha(opacity=30);
+	transition: opacity 1s;
+}
+.projectSideMenu:hover {
+	height: 125px;
+	width: 20px;
+	float: left;
+  	cursor: pointer;
+  	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.activeBg {
+	background-color: #82E976;
+}
+.inactiveBg {
+	background-color: #ff7979;
+}
+.projectMainDiv {
+	height: 180px;
+}
+.projectSideMenuLink {
+	width: 20px;
+	float: right;
+}
+.projectFolder {
+	height: 125px;
+	width: 160px;
+	margin-right: 10px;
+	margin-left: 10px;
+	box-shadow: 7px 7px 7px #888;
+}
+.newProjectFolderContent {
+	height: 125px;
+	width: 160px; 
+	float: left;
+	background-color: #FFF;
+}
+.projectFolderContent {
+	height: 125px;
+	width: 140px; 
+	float: left;
+	background-color: #FFF;
+}
+.projectBoxScrollDiv {
+	overflow: auto;
+	height: 150px;
+	width: 785px;
+}
+.projectFieldSet {
+	width: 809px;
+	float: left;
+}
+.arcProjectBoxScrollDiv {
+	overflow-x: auto;
+	height: 150px;
+	width: 140px;
+}
+.arcProjectFieldSet {
+	width: 150px;
+	float: left;
+	margin-left:8px;
+}
+.projectDescription {
+	height: 45px;
+	width: 130px;
+	overflow:auto;
+	margin-left:5px;
+	font-size: 10px;
+}
+.issueTable {
+	font-size: 10px;
+}
+.releaseTable {
+	font-size: 10px;
+}
+.notificationTable {
+	font-size: 10px;
+	background-color: #FFF;
+}
+.statusTable {
+	font-size: 10px;
+}
+.logTable {
+	font-size: 10px;
+}
+.notificationTable th {
+	text-align: left;
+}
+.overlay-panel {
+	position: absolute;
+}
+.errorSuccessPanel {
+	width: 1000px;
+}
+.successPanelIcon {
+	 color: #3c763d;
+	 margin-top:2px;
+	 margin-right: 5px;
+}
+.errorPanelIcon {
+	 color: #a94442;
+	 margin-top:2px;
+	 margin-right: 5px;
+}
+.formStructure {
+	margin-left: auto; 
+	margin-right: auto; 
+	width:100%; 
+	font-size: 12px;
+}
+.archivedProjectBg {
+	background-color: #FFF;
+	border-bottom: 1px solid gray;
+	height: 25px;
+	width: 120px;
+	box-shadow: 4px 4px 4px #888;
+	font-size: 12px;
+}
+.archivedProjectContentTabl {
+	padding-bottom: 3px;
+}
+.archivedProjectContent {
+	height: 25px;
+	width: 80px;
+	float: left;
+	text-align: left;
+}
+.archivedProjectSideMenu {
+	height: 22px;
+	width: 40px;
+	float: left;
+	margin-top: 2px;
+	opacity: 0.5;
+	transition: opacity 1s;
+	filter: alpha(opacity=30);
+}
+.archivedProjectSideMenu:hover {
+	height: 22px;
+	width: 40px;
+	float: left;
+	margin-top: 2px;
+	cursor: pointer;
+  	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.archivedProjectList {
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.archivedLink {
+	height:24px;
+	width:80px;
+	text-align:left;
+}
+.projectLink {
+	width:135px;
+}
+.projectDetailsBox {
+	width:230px; 
+	height:230px;
+	float:left;
+}
+.projectTeamBox {
+	width:300px;
+	height:230px;
+	float:left;
+	margin-left:11px;
+}
+.projectModulesBox {
+	width:414px; 
+	height:230px;
+	float:left;
+	margin-left:11px;
+}
+.projectRequestBox {
+	height: 260px;
+	width: 980px;
+}
+.userSearchLink {
+	padding: 0;
+}
+.projectTeamMembers {
+	margin-top:5px;
+	height: 27px;
+	width: 245px; 
+	margin-left:5px; 
+	background-color:#FFF; 
+	box-shadow: 4px 4px 4px #888;
+}
+.projectTeamMembersBox {
+	margin-top: 10px;
+	 border: 1px solid;
+	 height: 260px;
+	 width: 290;
+	 overflow-x: auto;
+}
+.tabInnerBox {
+	margin:5px;
+}
+.projectDetailTableFields {
+	background-color: #4E4E4E; 
+	color: #FFF; 
+	padding: 5px; 
+	font-weight: bold;
+	border-bottom: 1px solid #FFF;
+}
+.projectDetailTableFieldLabels {
+	background-color: #FFF; 
+	border-bottom: 1px solid;
+}
+.projectDetailsContentBox {
+	margin-top:5px; 
+	height:190px; 
+	width:220px; 
+	font-size:11px;
+}
+.facebook-icon {
+	font-family: fantasy;
+}
+.google-icon {
+	font-family: icon;
+}
+.registerSpan {
+	font-size: 12px;
+}
+.registerLink {
+	text-decoration: underline;
+	font-size: 12px;
+}
+.popupFieldset {
+	background: url(../images/popup-bg.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	font-size: 13px;
+	box-shadow: 1px 1px 1px #888;
+}
+.moduleTabs {
+	margin-left:5px; 
+	padding-left:5px; 
+	padding-right:7px; 
+	margin-right:10px; 
+	font-size:12px;
+	width:100%;
+	text-align:left;
+	white-space: nowrap;
+}
+.moduleTabActive {
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	padding:5px;
+	background-color: #B0CFF4;
+	text-align: left;
+	font-weight: bold;
+}
+.moduleTabInActive {
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	padding:5px;
+	background-color: #FFF;
+    text-align: left;
+}
+.moduleTabInActive:hover {
+	border-bottom: 1px solid #FFF;
+	border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-top: 1px solid #FFF;
+	padding:5px;
+	background-color: #CBDFF8;
+	text-align: left;
+}
+.editModule {
+	font-size: 10px; 
+	height:0px; 
+	width:0px;
+	color:#CCC;
+}
+.editModule:hover {
+	font-size: 10px; 
+	height:0px; 
+	width:0px;
+	color:#000;
+}
+.notification {
+	height:25px; 
+	float:left; 
+	width:25px; 
+	border: 1px solid;
+	margin-left: 15px;
+}
+.notificationUnread {
+	color: red;
+}
+.appBox {
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	background-color: #FFF;
+	cursor: pointer;
+	box-shadow: 4px 4px 4px #DDD, -4px 4px 4px #DDD, 4px -4px 4px #DDD, -4px -4px 4px #DDD;
+}
+.calHeader {
+	color: #AAA;
+	font-weight: bolder;
+	width: 130px;
+	border: 1px solid #CCC;
+	height: 70px;
+	box-shadow: -15px 0 0 #DDD;
+}
+.enabledCalDates {
+	border: 1px solid #CCC;
+	width: 130px;
+	height: 70px;
+	cursor: pointer;
+	box-shadow: 1px 0 0px #DDD, -1px -1px 5px #DDD;
+	text-align: right;
+	vertical-align: top;
+	padding: 5px;
+	color: #696969;
+}
+.enabledCalDates:active {
+	border: 1px solid #CCC;
+	width: 130px;
+	height: 70px;
+	cursor: pointer;
+	box-shadow: 0 0 0 #DDD, 0 0 0 #DDD;
+	color: #000;
+}
+.disabledCalDates {
+	width: 130px;
+	height: 70px;
+	border: 1px solid #CCC;
+	background-color: #EEE;
+	color: #EEE;
+}
+.monthsBox {
+	padding: 10px;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	box-shadow: 1px 0 0px #DDD, -1px -1px 3px #DDD;
+}
+.monthsBox:active {
+	padding: 10px;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	box-shadow: 0 0 0 #DDD, 0 0 0 #DDD;
+}
+.yearsBox {
+	padding: 10px;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	box-shadow: 1px 0 0px #DDD, -1px -1px 3px #DDD;
+}
+.yearsBox:active {
+	padding: 10px;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	box-shadow: 0 0 0 #DDD, 0 0 0 #DDD;
+}
+.boldText {
+	font-weight: bolder;
+}
+.reportIcon {
+	box-shadow: 1px 1px 1px #888, -1px 1px 1px #888, 1px -1px 1px #888, -1px -1px 1px #888;
+}
+.reportIcon:active {
+	box-shadow: 0 0 0 #888, 0 0 0 #888, 0 0 0 #888, 0 0 0 #888;
+}
